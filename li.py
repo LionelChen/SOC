@@ -8,7 +8,7 @@ def send_sms():
     client = TwilioRestClient("ACee782f2e314a70151536680e5484c403", "fc4299125919e8ce0009bc06b8ef242d")
     client.messages.create(to="+19497716120", from_="+12548486298",
                        body="Spring 2017 - The American Serial Killer is NOW AVAILABLE")
-    client.messages.create(to="+15010766170", from_="+12548486298",
+    client.messages.create(to="+18572538606", from_="+12548486298",
                        body="Spring 2017 - The American Serial Killer is NOW AVAILABLE")
 
 
